@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+
+html {
+  font-family: 'Oswald', sans-serif;
+}
+
+.weather-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.weather-box {
+  display: flex;
+  width: 20vw;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid grey;
+}
+
+.day, .temps, .icon, .condition {
+  width: 100%;
+  text-align: center;
+}
+
+.day, .condition {
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+.icon {
+  font-size: 3em;
+}
+
+.temps {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 2em;
+}
+
+.temp-min {
+  color: blue;
+}
+
+.temp-max {
+  color: red;
+}
